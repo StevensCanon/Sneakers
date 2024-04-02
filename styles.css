@@ -1,0 +1,138 @@
+
+
+.gif{
+  width: 100%;
+  height: 600px;
+}
+.icono-especifico i {
+  font-size: 30px; 
+  color: rgb(255, 255, 255);
+}
+
+.Somos h1 {
+  font-size: 35px; 
+  color:rgb(0, 0, 0);
+  font-weight: bold; 
+}
+
+.Somos {
+  padding: 20px;
+  text-align: center; 
+}
+
+.body{
+  padding-top:  100px ; 
+  margin-top: 56px;
+}
+
+section video {
+  padding-top: 100px;
+}
+
+.imagenes {
+  padding: 50px;
+  text-align: center; 
+}
+
+.imagenes img.scale {
+  width: 280px; 
+  height: 280px; 
+  border-radius: 100%;
+  margin: 0 20px; 
+  display: inline-block; 
+}
+
+.scale {
+    transition: transform 1s ease;
+}
+
+.scale:hover {
+    transform: scale(1.2); 
+}
+
+.links {
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+.bi {
+  font-size: 13px; 
+  color:dodgerblue;
+}
+
+.Titulo {
+  font-weight: bold; 
+  color:dodgerblue;
+}
+
+.card-img-top{
+  height: 400px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.pagination{
+  padding-top: 20px;
+}
+
+#contactForm {
+  margin-bottom: 20px; 
+  margin: 4px;
+  font-weight: bold; 
+}
+
+.btn-primary {
+  width: 400px; 
+}
+
+h1,h3{
+  text-align: center;
+  font-family: 'Anton';
+  padding-bottom: 10px;
+}
+
+.navbar{
+  font-family: 'Anton';
+}
+
+.Footerp{
+  text-align: center;
+  padding:8px;
+}
+
+.imga{
+  width: 400px;
+  height: 278px;
+}
+
+.cards h1{
+  font-size: 35px; 
+  color:rgb(0, 0, 0);
+  font-weight: bold; 
+  text-align: center;
+}
+
+.cards{
+  text-align: center;
+  padding: 50px;
+ 
+}
+
+ .Parrafo{
+  padding-bottom: 20px;
+ }
+
+.card-title {
+  font-family: 'Anton';
+  color:dodgerblue;
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+  padding: 20px;
+}
+
+.terminos{
+  padding: 50px;
+}

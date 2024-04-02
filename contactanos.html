@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Hombres.html">HOMBRES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Mujeres.html">MUJERES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        <a href="Hombres.html" class="icono-especifico">
+          <button type="button" class="btn btn-outline-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+           Comprar
+          </button>
+        </a>
+        <img src="Images/zapatillas.png" alt="Logo" class="ml-auto" style="width: 100px; /* ajusta el tamaño aquí */">
+    </nav>
+    
+    <section>
+        <br>
+        <h3>ENVIANOS TUS DATOS</h3>
+        <br>
+        <form id="contactForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="departamento" class="form-label">Departamento</label>
+                        <select class="form-select" id="departamento" name="departamento" required>
+                            <option value="">Selecciona tu departamento</option>           
+                                <option value="Amazonas">Amazonas</option>
+                                <option value="Antioquia">Antioquia</option>
+                                <option value="Arauca">Arauca</option>
+                                <option value="Atlántico">Atlántico</option>
+                                <option value="Bolívar">Bolívar</option>
+                                <option value="Boyacá">Boyacá</option>
+                                <option value="Caldas">Caldas</option>
+                                <option value="Caquetá">Caquetá</option>
+                                <option value="Casanare">Casanare</option>
+                                <option value="Cauca">Cauca</option>
+                                <option value="Cesar">Cesar</option>
+                                <option value="Chocó">Chocó</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Cundinamarca">Cundinamarca</option>
+                                <option value="Guainía">Guainía</option>
+                                <option value="Guaviare">Guaviare</option>
+                                <option value="Huila">Huila</option>
+                                <option value="La Guajira">La Guajira</option>
+                                <option value="Magdalena">Magdalena</option>
+                                <option value="Meta">Meta</option>
+                                <option value="Nariño">Nariño</option>
+                                <option value="Norte de Santander">Norte de Santander</option>
+                                <option value="Putumayo">Putumayo</option>
+                                <option value="Quindío">Quindío</option>
+                                <option value="Risaralda">Risaralda</option>
+                                <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                                <option value="Santander">Santander</option>
+                                <option value="Sucre">Sucre</option>
+                                <option value="Tolima">Tolima</option>
+                                <option value="Valle del Cauca">Valle del Cauca</option>
+                                <option value="Vaupés">Vaupés</option>
+                                <option value="Vichada">Vichada</option>
+                              </select>   
+                    <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="comentario" name="comentario" rows="4"></textarea>
+                </div>
+            </div>                               
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Dirección de Domicilio</label>
+                        <input type="text" class="form-control" id="direccion" name="direccion" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                    </div>    
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad</label>
+                        <select class="form-select" id="ciudad" name="ciudad" required>
+                            <option value="">Selecciona tu ciudad</option>
+                            <option value="Leticia">Leticia</option>
+                            <option value="Medellín">Medellín</option>
+                            <option value="Arauca">Arauca</option>
+                            <option value="Barranquilla">Barranquilla</option>
+                            <option value="Cartagena de Indias">Cartagena de Indias</option>
+                            <option value="Tunja">Tunja</option>
+                            <option value="Manizales">Manizales</option>
+                            <option value="Florencia">Florencia</option>
+                            <option value="Yopal">Yopal</option>
+                            <option value="Popayán">Popayán</option>
+                            <option value="Valledupar">Valledupar</option>
+                            <option value="Quibdó">Quibdó</option>
+                            <option value="Montería">Montería</option>
+                            <option value="Bogotá">Bogotá</option>
+                            <option value="Inírida">Inírida</option>
+                            <option value="San José del Guaviare">San José del Guaviare</option>
+                            <option value="Neiva">Neiva</option>
+                            <option value="Riohacha">Riohacha</option>
+                            <option value="Santa Marta">Santa Marta</option>
+                            <option value="Villavicencio">Villavicencio</option>
+                            <option value="San Juan de Pasto">San Juan de Pasto</option>
+                            <option value="San José de Cúcuta">San José de Cúcuta</option>
+                            <option value="Mocoa">Mocoa</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Pereira">Pereira</option>
+                            <option value="San Andrés">San Andrés</option>
+                            <option value="Bucaramanga">Bucaramanga</option>
+                            <option value="Sincelejo">Sincelejo</option>
+                            <option value="Ibagué">Ibagué</option>
+                            <option value="Cali">Cali</option>
+                            <option value="Mitú">Mitú</option>
+                            <option value="Puerto Carreño">Puerto Carreño</option>
+                        </select>             
+                    <img src="Images/Envio.png" width="200px" height="200px">
+                </div>       
+            </div>  
+        </div>  
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+        </div>
+            <br>
+        </form>
+    </section>
+
+  
+    <footer class="d-flex justify-content-between align-items-center bg-dark text-light">
+        <div class="Footerp">
+          <h3 class="Titulo">Redes</h3>
+          <p><a class="links" href="https://twitter.com/"><i class="bi bi-twitter-x"></i> Twitter</a></p>
+          <p><a class="links"href="https://www.instagram.com/"><i class="bi bi-instagram"></i> Instagram</a></p>
+          <p><a class="links" href="https://www.facebook.com/"><i class="bi bi-facebook"></i> Facebook</a></p>
+        </div>
+        <div class="Footerp">
+          <h3 class="Titulo">Acerca de Nosotros</h3>
+          <p class="links"><i class="bi bi-geo-alt-fill"></i> Villavicencio-Meta , Colombia</p>
+          <p class="links"><i class="bi bi-telephone-fill"></i> +57 31411215XXX</p>
+          <p class="links"><i class="bi bi-envelope-at-fill"></i> sneakers@example.com</p>
+          <p class="links"><i class="bi bi-c-circle"></i> 2023 Elian Cañon</p>
+        </div>
+        <div class="Footerp">
+          <h3 class="Titulo">Visita..</h3>
+          <p><a class="links" href="index.html"><i class="bi bi-person-fill"></i>Nosotros</a></p>
+          <p><a class="links" href="terminos.html"><i class="bi bi-file-text-fill"></i>Términos y Condiciones</a></p>
+          <p"><a class="links" href="contactanos.html"><i class="bi bi-file-earmark-lock2-fill"></i>Contactanos</a></p>
+        </div>
+      </footer>
+      
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+  </body>
+  </html>

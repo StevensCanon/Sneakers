@@ -1,0 +1,54 @@
+.body2{
+    background-image: url('Images/bck.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.container h3{
+    text-align: center;
+    font-family: 'Anton';
+    color: #dfbb44
+  }
+  
+  .navbar{
+    font-family: 'Anton';
+  }
+
+.login-container {
+    max-width: 400px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold; 
+    color: #ffffff;
+  }
+
+  .links {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+  
+  .bi {
+    font-size: 13px; 
+    color: #dfbb44
+  }
+
+  .Titulo {
+    font-weight: bold; 
+    color: #dfbb44
+  }
+
+  .logos{
+    width: 15px;
+    height: 15px;
+  }
+
+  .links{
+    outline: none;
+  }
+
+  .Footerp{
+    text-align: center;
+    padding:8px;
+  }
+
+
